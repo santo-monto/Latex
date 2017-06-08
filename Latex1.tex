@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{color}
+\usepackage{graphicx}
+
+\begin{document}
+\title{My first document}
+\author{Santosh}
+\date{\today}
+\maketitle
+
+\pagebreak
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+\label{stage !}
+{\color{yellow}\textit{\huge{{This is the introduction.}}}}
+\begin{figure}[p!]
+\centering
+\includegraphics[width=1\textwidth]{hello}
+\caption{My text image}
+\end{figure}
+\pagebreak
+
+\newpage
+
+\section{Methods}
+
+\subsection{stage I}
+Item \#1A\textbackslash642 costs \$8 \& is sold at a \~{}10\% profit
+
+{\color{black}{\textit{ \small  Let's have a look at some equation!!}}}
+
+
+\begin{tabular}{|l|}
+\hline
+Equation.\\
+\hline
+$e=mc^2$\\
+\hline
+$\pi=\frac{c}{d}$\\
+\hline
+$\frac{d}{dx}e^x=e^x$\\
+\hline
+$\frac{d}{dx}\int_a^b f(s)ds=f(x)$\\
+\hline
+\end{tabular}
+
+
+\subsection{stage 2}
+hello
+
+\newpage
+\section{Results}
+Bye refer to \ref{stage !}
+
+\begin{tabular}{|l|r|l|}
+\hline
+Items & Quantity & P rice(\$)\\
+\hline
+Nails & 500 & 0.34\\
+Wooden boards & 100 & 4.00\\
+Bricks & 240 & 11.50\\
+\hline
+\end{tabular}
+\end{document}

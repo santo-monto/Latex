@@ -1,0 +1,33 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{color}
+
+\begin{document}
+
+\centerline{\textbf{ Some Mathematical Formulae}}
+
+\vskip 0.2in
+$L(1)=\frac{1}{s}$
+\vskip 0.1in
+$L(t^n)= {\frac{n!}{s^(n+1)}}$
+\vskip 0.1in
+$L[e^(at)]={\frac{1}{s-a}}$
+\vskip 0.1in
+$L(sin$ $at$)=${\frac{a}{s^2+a^2}}$
+\vskip 0.1in
+$L(sinh$ $at$)=$ \frac{a}{s^2-a^2}$
+\vskip 0.1in
+$L(cos$ $at$)=$\frac{s}{s^2+a^2}$
+\vskip 0.1in
+$L(cosh$ $at$)=$\frac{s}{s^2-a^2}$
+\vskip 0.1in
+$L[e^(at)*f(t)]=\bar f(s-a)$
+\vskip 0.1in
+\textit{\color{red} {Transforms of periodic function: }}  $L[f(t)]=\frac {\int_0^T (e^(-st)*f(t)dt)}{1-e^-sT}$
+\vskip 0.1in
+\textit{\color{red}{Transforms of derivatives:}} $L[f^n(t)]=s^n\bar f(s)-s^(n-1)f\prime(0)-s^(n-2)f\prime\prime(0)-..-f^(n-1)(0)$
+\vskip 0.1in
+\textit{\color{red} {Transforms of integrals: }}  $L[\int_0^t f(u)du]=\frac{\bar f(s)}{s}$
+\vskip 0.1in
+\textit{\color{blluw} {Multiplication by $t^n$: }}  $L[t^n f(t)]=(-1)^n \frac {d^n}{ds^n} [f^n(s)]$
+\end{document}
